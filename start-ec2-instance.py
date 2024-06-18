@@ -1,4 +1,4 @@
-import boto3
+import boto33
 
 def lambda_handler(event, context):
     # Initialize the EC2 client
