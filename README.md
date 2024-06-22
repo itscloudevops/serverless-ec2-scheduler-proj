@@ -25,4 +25,6 @@ Now, we have successfully created two schedules: one to start the instance every
 
 1. create ec2 instance
 
-2. go to iam , and create policy
+2. go to iam , and create two polices :- start and stop
+
+3. create two lambda functions & deploy code
