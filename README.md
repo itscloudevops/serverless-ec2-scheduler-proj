@@ -5,7 +5,7 @@ In some companies, there is no need to run their EC2 instances 24/7; they requir
 ![266763781-287063a4-964a-4f8b-b88e-25535b7f4691](https://github.com/itscloudevops/serverless-ec2-scheduler-proj/assets/172890207/1a5fc611-4010-4d79-84e2-417135e27fd0)
 
 
-## views :
+## STEPS :
 
 We have now created a schedule for starting the instance every day at 8:00 AM
 
@@ -21,10 +21,3 @@ We have to Change the Function as Stop-EC2-demo
 
 Now, we have successfully created two schedules: one to start the instance every day at 8:00 AM and the other to stop the instance every day at 5:00 PM.
 
-### steps
-
-1. create ec2 instance
-
-2. go to iam , and create two polices :- start and stop
-
-3. create two lambda functions & deploy code
